@@ -1,0 +1,8 @@
+const resources = {
+
+}
+
+
+export default {
+
+}
