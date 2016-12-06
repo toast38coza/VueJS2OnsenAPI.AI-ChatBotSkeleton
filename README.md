@@ -11,6 +11,10 @@
 
 The only thing you need to configer is the `API_AI_TOKEN`
 
+```
+cp app/config/prod.env.example.js app/config/prod.env.js
+```
+and edit `API_AI_TOKEN`
 
 
 #### Run:
