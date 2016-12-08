@@ -29,7 +29,7 @@ const router = new VueRouter({
 console.log(process.env.API_AI_TOKEN)
 // axios setup:
 axios.defaults.baseURL = 'https://api.api.ai/api'
-axios.defaults.headers.common['Authorization'] = 'Bearer 48369df319eb483dbc7da81af1046fd2'
+axios.defaults.headers.common['Authorization'] = `Bearer ${process.env.API_AI_TOKEN}`
 axios.defaults.headers.post['Content-Type'] = 'application/json'
 Vue.prototype.$http = axios
 
